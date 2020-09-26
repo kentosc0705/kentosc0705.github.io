@@ -49,22 +49,23 @@
             </div>
             <p>ご質問等ございましたら、こちらのフォームよりお問合せ下さい。</p>
             <div class="inquiry">
-                <div class="item">
-                    <label class="label">お名前</label>
-                    <input class="inputs" type="text" name="name">
-                  </div>
-              
-                <div class="item">
-                    <label class="label">メールアドレス</label>
-                    <input class="inputs" type="email" name="email">
-                </div>
-                <div class="item">
-                    <label class="label">ご意見</label>
-                    <textarea class="inputs"></textarea>
-                </div>
-                <div class="btn-area">
-                    <input type="submit" value="送信">
-                </div>
+                <form action="inquiry_confirm.php" method="post">
+                    <div class="item">
+                        <label class="label">お名前</label>
+                        <input class="inputs" type="text" name="name">
+                    </div>
+                    <div class="item">
+                        <label class="label">メールアドレス</label>
+                        <input class="inputs" type="email" name="email">
+                    </div>
+                    <div class="item">
+                        <label class="label">内容</label>
+                        <textarea class="inputs" name="content"></textarea>
+                    </div>
+                    <div class="btn-area">
+                        <a href="inquiry_confirm.php"><input type="submit" name="send" value="送信"></a>
+                    </div>
+                </form>
             </div>
         </div>
 
