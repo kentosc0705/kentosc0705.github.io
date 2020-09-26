@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+div {
+    display: block;
+}
+
+header {
+    border-top: 7px #0099FF solid;
+    width: 100%;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+.header01 {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    width: 100%;
+    padding: 30px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 10px;
+    color: white;
+    padding-top: 5px;
+}
+
+.team_name {
+    margin-left: 10px;
+    color: black;
+    font-family: arial black;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+}
+
+.team_name1 {
+    font-size: 35px;
+}
+
+.team_name2 {
+    font-size: 20px;
+}
+
+#nav_list {
+    list-style: none;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav_list li {
+    font-weight: bold;
+    font-size: 15px;
+    width: auto;
+    margin-top: 15px;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+    opacity: 0.7;
+    float: left;
+}
+
+#nav_list li:hover {
+    opacity: 1;
+}
+
+.active {
+    border-bottom: solid 4px #0099FF;
+    opacity: 1;
+}
+
+.main_image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: center;
+    height: auto;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #EEEEEE;
+    color: #333333;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+h3 {
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 7px #0099FF solid;
+}
+
+.inner_footer {
+    width: 100%;
+    min-width: 980px;
+    background-color: #0099FF;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.club_info {
+    width: 100%;
+    padding: 30px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_image {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 0 50px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h5 {
+    margin: 1px 0;
+}
+
+.footer_image img {
+    padding-top: 20px;
+    margin: 0 50px;
+}
+
+.alliances {
+    color: white;
+    margin: 20px 50px 0 50px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#alliance_list {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+#footer_list {
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 30px 0 30px;
+    border-top: solid 1px white;
+}
+
+#footer_list li {
+    margin: 10px 20px 0px 20px;
+    padding-top: 20px;
+    width: 12%;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#footer_list li a {
+    color: white;
+}
+
+.copyright {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    min-width: 980px;
+    color: white;
+    text-align: center;
+}
